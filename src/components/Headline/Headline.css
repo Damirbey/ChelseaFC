@@ -1,0 +1,15 @@
+/****************************************************************/
+/****************Headline*******************/
+.headline{
+    margin:10px 0;
+    display:flex;
+    gap:10px;
+  }
+  .fire{
+    width:25px;
+    height:25px;
+  }
+  .headline > h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }

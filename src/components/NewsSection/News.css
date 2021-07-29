@@ -1,0 +1,38 @@
+/****************************************************************/
+/****************Section*******************/
+section{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    margin:10px auto;
+}
+
+.news-box{
+    height:450px;
+    border:1px solid #cccccc;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius:10px;
+    padding:10px;
+    cursor:pointer;
+    transition: all 0.1s;
+}
+.news-box:hover{
+    transform: scale(1.05);
+}
+.news-box > p{
+    font-style:italic;
+}
+.boldText{
+   font-weight: bold;
+}
+.news-box > img{
+    height:auto;
+    width:100%;
+    border-radius: 10px;
+}
+.news-content{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

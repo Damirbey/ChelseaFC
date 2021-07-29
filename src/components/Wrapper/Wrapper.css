@@ -1,0 +1,9 @@
+/****************************************************************/
+/****************Wrapper*******************/
+.wrapper{
+    max-width: 1500px;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding:20px;
+}
