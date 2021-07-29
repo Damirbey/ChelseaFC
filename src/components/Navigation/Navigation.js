@@ -10,7 +10,7 @@ function Navigation()
                 <li><a href="#">Squad</a></li>
                 <li><a href="#">Transfers</a></li>
                 <li><a href="#">Statistics</a></li>
-                <li className="push"><a href="#">Login</a></li>
+                <li className="push"><a href="#">Login new</a></li>
             </ul>
         </nav>
     )
