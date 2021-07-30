@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ChelseaFC/static/css/main.ebc78113.chunk.css",
-    "main.js": "/ChelseaFC/static/js/main.e15d3781.chunk.js",
-    "main.js.map": "/ChelseaFC/static/js/main.e15d3781.chunk.js.map",
+    "main.css": "/ChelseaFC/static/css/main.278e9b49.chunk.css",
+    "main.js": "/ChelseaFC/static/js/main.a84901c2.chunk.js",
+    "main.js.map": "/ChelseaFC/static/js/main.a84901c2.chunk.js.map",
     "runtime-main.js": "/ChelseaFC/static/js/runtime-main.bd86f042.js",
     "runtime-main.js.map": "/ChelseaFC/static/js/runtime-main.bd86f042.js.map",
     "static/js/2.cd867ab4.chunk.js": "/ChelseaFC/static/js/2.cd867ab4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2404c71b.chunk.js": "/ChelseaFC/static/js/3.2404c71b.chunk.js",
     "static/js/3.2404c71b.chunk.js.map": "/ChelseaFC/static/js/3.2404c71b.chunk.js.map",
     "index.html": "/ChelseaFC/index.html",
-    "static/css/main.ebc78113.chunk.css.map": "/ChelseaFC/static/css/main.ebc78113.chunk.css.map",
+    "static/css/main.278e9b49.chunk.css.map": "/ChelseaFC/static/css/main.278e9b49.chunk.css.map",
     "static/js/2.cd867ab4.chunk.js.LICENSE.txt": "/ChelseaFC/static/js/2.cd867ab4.chunk.js.LICENSE.txt",
     "static/media/banner1.5f50ce00.png": "/ChelseaFC/static/media/banner1.5f50ce00.png",
     "static/media/banner2.4c135001.png": "/ChelseaFC/static/media/banner2.4c135001.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.bd86f042.js",
     "static/js/2.cd867ab4.chunk.js",
-    "static/css/main.ebc78113.chunk.css",
-    "static/js/main.e15d3781.chunk.js"
+    "static/css/main.278e9b49.chunk.css",
+    "static/js/main.a84901c2.chunk.js"
   ]
 }
