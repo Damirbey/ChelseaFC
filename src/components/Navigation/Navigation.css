@@ -1,40 +1,13 @@
-/****************************************************************/
-/****************Navigation BAR*******************/
 nav{
     background-color: #295798;
     padding:2px;   
 }
-.main-nav{
-    display:flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin:0;
-}
-li{
-    padding:10px;
-    margin:auto 0;
-}
 a{
     text-decoration: none;
-    color:#f4f4f5;
+    color:#f4f4f5 !important;
     font-size:1.2rem;
 }
 a:hover{
-    color:#cccccc;
+    color:#cccccc !important;
     text-decoration: none;
-}
-.homeIcon{
-    height:35px;
-    width:35px;
-}
-.push{
-    margin-left:auto;
-}
-@media only screen and ( max-width: 600px ){
-    .main-nav{
-        padding:0;
-    }
-    a{
-        font-size:0.6rem;
-    }
 }
