@@ -13,7 +13,7 @@ function Navigation()
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Chelsea FC</a>
+                        <a class="nav-link" href="https://chelseanews.ru">Chelsea FC</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Squad</a>
