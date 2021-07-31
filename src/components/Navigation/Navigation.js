@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navigation.css';
+import {Link} from 'react-router-dom';
 function Navigation()
 {
     return (
@@ -13,10 +14,10 @@ function Navigation()
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://chelseanews.ru">Chelsea FC</a>
+                        <Link to="/"><a class="nav-link" >Chelsea FC</a></Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Squad</a>
+                        <Link to="/footer"><a class="nav-link">Squad</a></Link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Transfers</a>

@@ -8,20 +8,21 @@ function News(props)
 
     return(
         <section>
-            {news.map((item)=>{
-                return(            
-                    <div className="news-box">
-                        <img src={`../../images/NewsSection/${item.image}`} alt={item.image} />
-                        <h6>{item.title}</h6>
-                        <p> <span className="boldText">Date Published:</span> {item.datePublished}
-                        </p>
-                        <p className="news-content">
-                            {item.content}
-                        </p>
-                    </div>
-                    )
-                })
-            }                
+               {
+                   news.map((item)=>{
+                       return (
+                        <div className="news-box">
+                            <img src={process.env.PUBLIC_URL + item.image} />
+                            <h6>{item.title}</h6>
+                            <p> <span className="boldText">Date Published:</span> {item.datePublished}
+                            </p>
+                            <p className="news-content">
+                                {item.content}
+                            </p>
+                        </div>
+                       )
+                   })
+               }                
         </section>
     )
 }
