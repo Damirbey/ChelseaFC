@@ -14,7 +14,7 @@ function Navigation()
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <Link to="/"><a class="nav-link" >Chelsea FC</a></Link>
+                        <Link to="/ChelseaFC"><a class="nav-link" >Chelsea FC</a></Link>
                     </li>
                     <li class="nav-item">
                         <Link to="/footer"><a class="nav-link">Squad</a></Link>

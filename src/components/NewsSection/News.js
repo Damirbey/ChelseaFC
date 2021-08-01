@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../images/NewsSection/news1.png';
+import {Link} from 'react-router-dom';
 import './News.css';
 
 function News(props)
@@ -11,15 +11,23 @@ function News(props)
                {
                    news.map((item)=>{
                        return (
-                        <div className="news-box">
-                            <img src={process.env.PUBLIC_URL + item.image} />
-                            <h6>{item.title}</h6>
+                        
+                        <div className="news-box" key={item.id}>
+                            <Link to={`/news/${item.id}`}>
+                                <img className="newsImage" src={process.env.PUBLIC_URL + item.image} />
+                            </Link>
+                            <Link to={`/news/${item.id}`}>
+                                <h6>{item.title}</h6>
+                            </Link>
                             <p> <span className="boldText">Date Published:</span> {item.datePublished}
                             </p>
-                            <p className="news-content">
-                                {item.content}
-                            </p>
+                            <Link to={`/news/${item.id}`}>
+                                <p className="news-content">
+                                    {item.content}
+                                </p>
+                            </Link>  
                         </div>
+                        
                        )
                    })
                }                

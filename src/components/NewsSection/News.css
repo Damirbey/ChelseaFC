@@ -25,14 +25,23 @@ section{
 .boldText{
    font-weight: bold;
 }
-.news-box > img{
+.newsImage{
     height:auto;
     width:100%;
     border-radius: 10px;
 }
+
 .news-content{
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  color:#000000;
+  font-size: 1rem;
+}
+h6:hover{
+    color:#0000ff;
+}
+h6{
+    color:#000000;
 }
