@@ -5,25 +5,35 @@ function Navigation()
 {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">
-                <i class="fa fa-home fa-2x"></i>
-            </a>
+            <Link to="/ChelseaFC">
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-home fa-2x"></i>
+                </a>
+            </Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <Link to="/ChelseaFC"><a class="nav-link" >Chelsea FC</a></Link>
+                        <Link to="/ChelseaFC">
+                            <a class="nav-link" >Chelsea FC</a>
+                        </Link>
                     </li>
                     <li class="nav-item">
-                        <Link to="/footer"><a class="nav-link">Squad</a></Link>
+                        <Link to="/squad">
+                            <a class="nav-link">Squad</a>
+                        </Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Transfers</a>
+                        <Link to="/transfers">
+                            <a class="nav-link" href="#">Transfers</a>
+                        </Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Statistics</a>
+                        <Link to="/statistics">
+                            <a class="nav-link" href="#">Statistics</a>
+                        </Link>
                     </li>              
                 </ul>
                 <ul class="navbar-nav ml-auto">
