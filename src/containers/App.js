@@ -9,6 +9,7 @@ import Statistics from '../components/Statistics/Statistics';
 import Transfers from '../components/Transfers/Transfers';
 import Squad from '../components/Squad/Squad';
 import Footer from '../components/Footer/Footer';
+import History from '../components/History/History';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path="/squad" component={Squad}/>
               <Route path="/transfers" component={Transfers}/>
               <Route path="/statistics" component={Statistics}/>
+              <Route path="/history" component={History}/>
             <Footer/>
             </Wrapper> 
           </BrowserRouter>      
