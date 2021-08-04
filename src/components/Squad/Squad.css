@@ -1,14 +1,27 @@
 .squadInfo{
     display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(450px, 1fr));
+    grid-template-columns:repeat(auto-fill,minmax(400px, 1fr));
     grid-gap:20px;
+    padding: 10px;
 }
 .playerInfo{
     border:1px solid #cccccc;
     padding:10px;
     box-shadow: 3px 3px 3px #888888;
     border-radius: 10px;
-}
-.playerInfo > img{
+    cursor: pointer;
     text-align: center;
+    transition: all 0.1s;
+}
+h5{
+    margin-top: 10px;
+}
+.playerStats{
+    margin-top:5px;    
+}
+.playerStats:hover,h5:hover{
+    color:#0000ff;
+}
+.playerInfo:hover{
+    transform:scale(1.05)
 }
