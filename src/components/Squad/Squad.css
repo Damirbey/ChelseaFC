@@ -1,0 +1,14 @@
+.squadInfo{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(450px, 1fr));
+    grid-gap:20px;
+}
+.playerInfo{
+    border:1px solid #cccccc;
+    padding:10px;
+    box-shadow: 3px 3px 3px #888888;
+    border-radius: 10px;
+}
+.playerInfo > img{
+    text-align: center;
+}
