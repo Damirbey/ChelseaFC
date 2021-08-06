@@ -1,0 +1,22 @@
+.historyContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    width: 100%;
+}
+.historyImage{
+    border-radius: 10px;
+    cursor: pointer;
+    max-width:100%;
+}
+.clubHistory > p{
+    line-height: 35px;
+}
