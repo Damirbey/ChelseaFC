@@ -12,7 +12,6 @@ function HomeScreen()
         <React.Fragment>
             <Banner/>
             <News news={news}/>
-            <Footer/>
         </React.Fragment>
     )
 }
