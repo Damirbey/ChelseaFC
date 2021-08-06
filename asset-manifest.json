@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/ChelseaFC/static/css/main.278e9b49.chunk.css",
-    "main.js": "/ChelseaFC/static/js/main.3f53cf3c.chunk.js",
-    "main.js.map": "/ChelseaFC/static/js/main.3f53cf3c.chunk.js.map",
-    "runtime-main.js": "/ChelseaFC/static/js/runtime-main.bd86f042.js",
-    "runtime-main.js.map": "/ChelseaFC/static/js/runtime-main.bd86f042.js.map",
-    "static/js/2.cd867ab4.chunk.js": "/ChelseaFC/static/js/2.cd867ab4.chunk.js",
-    "static/js/2.cd867ab4.chunk.js.map": "/ChelseaFC/static/js/2.cd867ab4.chunk.js.map",
-    "static/js/3.2404c71b.chunk.js": "/ChelseaFC/static/js/3.2404c71b.chunk.js",
-    "static/js/3.2404c71b.chunk.js.map": "/ChelseaFC/static/js/3.2404c71b.chunk.js.map",
+    "main.css": "/ChelseaFC/static/css/main.1de0144f.chunk.css",
+    "main.js": "/ChelseaFC/static/js/main.98dcf028.chunk.js",
+    "main.js.map": "/ChelseaFC/static/js/main.98dcf028.chunk.js.map",
+    "runtime-main.js": "/ChelseaFC/static/js/runtime-main.06464369.js",
+    "runtime-main.js.map": "/ChelseaFC/static/js/runtime-main.06464369.js.map",
+    "static/js/2.e5d7d3c5.chunk.js": "/ChelseaFC/static/js/2.e5d7d3c5.chunk.js",
+    "static/js/2.e5d7d3c5.chunk.js.map": "/ChelseaFC/static/js/2.e5d7d3c5.chunk.js.map",
+    "static/js/3.408c7d39.chunk.js": "/ChelseaFC/static/js/3.408c7d39.chunk.js",
+    "static/js/3.408c7d39.chunk.js.map": "/ChelseaFC/static/js/3.408c7d39.chunk.js.map",
     "index.html": "/ChelseaFC/index.html",
-    "static/css/main.278e9b49.chunk.css.map": "/ChelseaFC/static/css/main.278e9b49.chunk.css.map",
-    "static/js/2.cd867ab4.chunk.js.LICENSE.txt": "/ChelseaFC/static/js/2.cd867ab4.chunk.js.LICENSE.txt",
+    "static/css/main.1de0144f.chunk.css.map": "/ChelseaFC/static/css/main.1de0144f.chunk.css.map",
+    "static/js/2.e5d7d3c5.chunk.js.LICENSE.txt": "/ChelseaFC/static/js/2.e5d7d3c5.chunk.js.LICENSE.txt",
     "static/media/banner1.5f50ce00.png": "/ChelseaFC/static/media/banner1.5f50ce00.png",
-    "static/media/banner2.4c135001.png": "/ChelseaFC/static/media/banner2.4c135001.png",
-    "static/media/fire.78d14199.png": "/ChelseaFC/static/media/fire.78d14199.png",
-    "static/media/news1.3c6cafc9.png": "/ChelseaFC/static/media/news1.3c6cafc9.png"
+    "static/media/banner2.4c135001.png": "/ChelseaFC/static/media/banner2.4c135001.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd86f042.js",
-    "static/js/2.cd867ab4.chunk.js",
-    "static/css/main.278e9b49.chunk.css",
-    "static/js/main.3f53cf3c.chunk.js"
+    "static/js/runtime-main.06464369.js",
+    "static/js/2.e5d7d3c5.chunk.js",
+    "static/css/main.1de0144f.chunk.css",
+    "static/js/main.98dcf028.chunk.js"
   ]
 }
