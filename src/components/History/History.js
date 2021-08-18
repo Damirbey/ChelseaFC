@@ -9,8 +9,6 @@ function History()
        
         
         <div className="historyContainer">
-            
-            
         <h2>Club History</h2>
                 <img className="historyImage" src={process.env.PUBLIC_URL +'/images/History/chelsea.png'}/>
             
